@@ -5,9 +5,9 @@ public class Campaign { // Gamze Alver
 	private String title; 
 	private String campaignStartDate;
 	private String campaignFinishDate;  
-	private int estimatedCost;
+	private double estimatedCost;
 	
-	public Campaign(String title, String campaignStartDate, String campaignFinishDate, int estimatedCost) {
+	public Campaign(String title, String campaignStartDate, String campaignFinishDate, double estimatedCost) {
 		super();
 		this.title = title;
 		this.campaignStartDate = campaignStartDate;
@@ -39,11 +39,11 @@ public class Campaign { // Gamze Alver
 		this.campaignFinishDate = campaignFinishDate;
 	}
 
-	public int getEstimatedCost() {
+	public double getEstimatedCost() {
 		return estimatedCost;
 	}
 
-	public void setEstimatedCost(int estimatedCost) {
+	public void setEstimatedCost(double estimatedCost) {
 		this.estimatedCost = estimatedCost;
 	}
 	
