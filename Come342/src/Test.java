@@ -11,8 +11,6 @@ public class Test {
 		Scanner scanner = new Scanner(System.in);
 		int choice;
 		
-		Database.defaultDatabase();
-		
 		while(true) {
 			System.out.println("********AGATE LTD********");
 			System.out.println("1 - Add a new client");
@@ -143,10 +141,20 @@ public class Test {
 				}
 				
 			}
-			
-			
-			
-		}
+		
+		 
+		 System.out.println("Campaign Title :");
+		 String CampaignTitle = scanner.nextLine();
+		 
+		 System.out.println("Campaign Start Date:");
+		 String CampaignStartDate = scanner.nextLine();
+		 
+		 System.out.println("Campaign Finish Date :");
+		 String CampaignFinishDate = scanner.nextLine();
+		 
+		 System.out.println("Campaign Estimated Cost :");
+		 String estimatedCost = scanner.nextLine();
+		 }
 		
 		
 		
