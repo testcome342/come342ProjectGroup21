@@ -131,7 +131,7 @@ public class Test {
 			
 			//Campaign list
 			if(client.getCampaigns().size() == 0) {
-				System.out.println("This client don't have campaign(s).");
+				System.out.println("This client doesn't have campaign(s).");
 			} else {
 				
 				for(int j=0; j<client.getCampaigns().size(); j++) {
